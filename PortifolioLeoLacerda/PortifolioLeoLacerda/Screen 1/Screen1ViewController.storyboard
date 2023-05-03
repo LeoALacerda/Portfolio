@@ -25,8 +25,8 @@
                                             <constraint firstAttribute="height" constant="140" id="lJV-fr-y3F"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Portifolio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6O-JI-uni">
-                                        <rect key="frame" x="213.66666666666663" y="63" width="162.33333333333337" height="52"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Portfolio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6O-JI-uni">
+                                        <rect key="frame" x="223.66666666666663" y="63" width="152.33333333333337" height="52"/>
                                         <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>

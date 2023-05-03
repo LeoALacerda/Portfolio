@@ -154,11 +154,11 @@
 			isa = PBXGroup;
 			children = (
 				B178E40D2A021ABE001CA128 /* App Page */,
-				B154BE2629FC77D2001F5D93 /* ViewModel */,
 				B154BE2529FC77CC001F5D93 /* Model */,
 				B154BE2429FC77C4001F5D93 /* CollectionViewCell */,
 				B154BE2329FC77B5001F5D93 /* TableViewCell */,
 				B178E4142A021BE5001CA128 /* View */,
+				B154BE2629FC77D2001F5D93 /* ViewModel */,
 			);
 			path = "Screen 2";
 			sourceTree = "<group>";
@@ -558,7 +558,7 @@
 				DEVELOPMENT_TEAM = ZJ6WN3W475;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PortifolioLeoLacerda/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Portifolio;
+				INFOPLIST_KEY_CFBundleDisplayName = Portfolio;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -587,7 +587,7 @@
 				DEVELOPMENT_TEAM = ZJ6WN3W475;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PortifolioLeoLacerda/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Portifolio;
+				INFOPLIST_KEY_CFBundleDisplayName = Portfolio;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

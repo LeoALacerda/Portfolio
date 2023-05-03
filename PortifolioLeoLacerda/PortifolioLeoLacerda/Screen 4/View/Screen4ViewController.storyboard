@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sMm-gD-l4c">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,14 +13,14 @@
             <objects>
                 <viewController storyboardIdentifier="Screen4ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="sMm-gD-l4c" customClass="Screen4ViewController" customModule="PortifolioLeoLacerda" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4jH-FO-psw">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hsu-gX-ajA">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="410"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="410"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="RzK-ZS-5nO">
-                                        <rect key="frame" x="116.66666666666669" y="70.999999999999986" width="160" height="158.66666666666669"/>
+                                        <rect key="frame" x="107.5" y="70.5" width="160" height="159"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="160" id="EaY-B2-LZc"/>
@@ -28,7 +28,7 @@
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fn2-kF-MAx">
-                                        <rect key="frame" x="162" y="230" width="69" height="35"/>
+                                        <rect key="frame" x="153" y="230" width="69" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="Yqp-eQ-x0f"/>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="69" id="uu7-tv-bqt"/>
@@ -46,12 +46,12 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type a name:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pW0-6Q-JYZ">
-                                        <rect key="frame" x="15" y="301" width="363" height="34"/>
+                                        <rect key="frame" x="15" y="301" width="345" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" textContentType="name"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b6A-2x-0i7">
-                                        <rect key="frame" x="148.66666666666666" y="350" width="96" height="35"/>
+                                        <rect key="frame" x="139.5" y="350" width="96" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="96" id="KCj-A9-trm"/>
                                             <constraint firstAttribute="height" constant="35" id="Naj-bk-YYJ"/>
@@ -81,7 +81,7 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="a5s-x1-xoD">
-                                <rect key="frame" x="0.0" y="410" width="393" height="408"/>
+                                <rect key="frame" x="0.0" y="410" width="375" height="257"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
