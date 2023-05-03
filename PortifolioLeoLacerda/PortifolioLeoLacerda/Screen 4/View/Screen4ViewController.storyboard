@@ -28,15 +28,15 @@
                                         </constraints>
                                     </imageView>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type a name:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pW0-6Q-JYZ">
-                                        <rect key="frame" x="15" y="246" width="344" height="34"/>
+                                        <rect key="frame" x="15" y="246" width="329" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" textContentType="name"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b6A-2x-0i7">
-                                        <rect key="frame" x="367" y="245" width="55" height="35"/>
+                                        <rect key="frame" x="352" y="245" width="70" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="EK0-5q-be4"/>
-                                            <constraint firstAttribute="width" constant="55" id="ReB-1E-tlw"/>
+                                            <constraint firstAttribute="width" constant="70" id="ReB-1E-tlw"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Add">
@@ -73,11 +73,26 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UwR-9I-lfo">
+                                        <rect key="frame" x="335" y="189" width="87" height="35"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Clear All">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                            </backgroundConfiguration>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="pressedClearAllButton:" destination="sMm-gD-l4c" eventType="touchUpInside" id="CGD-Nn-Sne"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.66240688333933173" green="0.35481352632864527" blue="0.91976243257522583" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="30E-hs-Lds"/>
+                                    <constraint firstAttribute="trailing" secondItem="UwR-9I-lfo" secondAttribute="trailing" constant="8" id="5xU-ZE-F5m"/>
                                     <constraint firstItem="RzK-ZS-5nO" firstAttribute="leading" secondItem="Hsu-gX-ajA" secondAttribute="leading" constant="10" id="76r-z0-m8U"/>
+                                    <constraint firstItem="b6A-2x-0i7" firstAttribute="top" secondItem="UwR-9I-lfo" secondAttribute="bottom" constant="21" id="8Lb-1D-orx"/>
                                     <constraint firstAttribute="trailing" secondItem="b6A-2x-0i7" secondAttribute="trailing" constant="8" id="EXO-23-god"/>
                                     <constraint firstItem="pW0-6Q-JYZ" firstAttribute="top" secondItem="RzK-ZS-5nO" secondAttribute="bottom" constant="10" id="I94-h7-eJU"/>
                                     <constraint firstItem="pW0-6Q-JYZ" firstAttribute="top" secondItem="RzK-ZS-5nO" secondAttribute="bottom" constant="10" id="PZX-96-lXz"/>
@@ -121,13 +136,16 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eRO-Oc-H6x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-496.26168224299062" y="-289.63282937365011"/>
+            <point key="canvasLocation" x="-496.74418604651163" y="-289.69957081545067"/>
         </scene>
     </scenes>
     <resources>
         <image name="person.circle.fill" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

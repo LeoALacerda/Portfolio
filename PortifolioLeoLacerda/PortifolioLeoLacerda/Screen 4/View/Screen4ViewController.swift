@@ -38,6 +38,7 @@ class Screen4ViewController: UIViewController {
         profileTableView.dataSource = self
         profileTableView.delegate = self
         profileTableView.register(Screen4TableViewCell.nib(), forCellReuseIdentifier: Screen4TableViewCell.identifier)
+        profileTableView.allowsSelection = false
     }
     
     @IBAction func pressedEditButton(_ sender: UIButton) {
@@ -58,6 +59,31 @@ class Screen4ViewController: UIViewController {
             present(alertController, animated: true)
         }
     }
+    
+    @IBAction func pressedClearAllButton(_ sender: UIButton) {
+        if viewModel.getListSize() == 0{
+            let alertController = UIAlertController(title: "Ops!", message: "The profile list is already empty.", preferredStyle: .alert)
+            
+            let okButton = UIAlertAction(title: "OK", style: .default) { action in
+                self.dismiss(animated: true)
+            }
+            alertController.addAction(okButton)
+            present(alertController, animated: true)
+        }else{
+            let alertController = UIAlertController(title: "Are you sure?", message: "Do you want to remove all profiles?", preferredStyle: .alert)
+            
+            let yesButton = UIAlertAction(title: "Yes", style: .destructive) { action in
+                self.viewModel.clearAllProfile()
+                self.profileTableView.reloadData()
+            }
+            let noButton = UIAlertAction(title: "No", style: .default) { action in
+                self.dismiss(animated: true)
+            }
+            alertController.addAction(yesButton)
+            alertController.addAction(noButton)
+            present(alertController, animated: true)
+        }
+    }
 }
 
 extension Screen4ViewController: UITableViewDelegate, UITableViewDataSource{
@@ -73,6 +99,26 @@ extension Screen4ViewController: UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         114
+    }
+    
+    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        return true
+    }
+
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+        }
+    }
+
+    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let deleteAction = UIContextualAction(style: .destructive, title: "Deletar") { _, _, completionHandler in
+                completionHandler(true)
+            self.viewModel.deleteProfile(index: indexPath.row)
+            self.profileTableView.reloadData()
+        }
+        let configuration = UISwipeActionsConfiguration(actions: [deleteAction])
+        configuration.performsFirstActionWithFullSwipe = false
+        return configuration
     }
 }
 

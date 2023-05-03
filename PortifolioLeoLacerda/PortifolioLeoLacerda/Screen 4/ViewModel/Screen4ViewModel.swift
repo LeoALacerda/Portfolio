@@ -22,4 +22,13 @@ class Screen4ViewModel{
     func addProfile (profile: Profile){
         profileList.append(profile)
     }
+    
+    func deleteProfile(index: Int){
+        profileList.remove(at: index)
+    }
+    
+    func clearAllProfile(){
+        profileList.removeAll()
+    }
+
 }
