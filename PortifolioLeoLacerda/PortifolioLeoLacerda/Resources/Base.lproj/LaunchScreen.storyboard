@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Prancheta 1" translatesAutoresizingMaskIntoConstraints="NO" id="fYR-5Y-wua">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Portifolio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bsw-9R-q0v">
+                                <rect key="frame" x="115" y="401" width="163" height="52"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoFinaLeoBranca" translatesAutoresizingMaskIntoConstraints="NO" id="L7m-mB-rbJ">
+                                <rect key="frame" x="96.666666666666686" y="219" width="200" height="182"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="182" id="7Dj-lK-fO3"/>
+                                    <constraint firstAttribute="width" constant="200" id="ekS-aM-h5S"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by Leo Lacerda" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qJT-ta-IwV">
+                                <rect key="frame" x="177" y="448" width="119" height="22.333333333333314"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fYR-5Y-wua" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="15v-58-CFk"/>
+                            <constraint firstItem="fYR-5Y-wua" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="3UX-F1-JBI"/>
+                            <constraint firstItem="Bsw-9R-q0v" firstAttribute="top" secondItem="L7m-mB-rbJ" secondAttribute="bottom" id="5xl-GZ-gx4"/>
+                            <constraint firstItem="L7m-mB-rbJ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="HaP-Ey-fms"/>
+                            <constraint firstItem="fYR-5Y-wua" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="IAg-Hz-d1Y"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qJT-ta-IwV" secondAttribute="trailing" constant="97" id="SRK-oe-lgK"/>
+                            <constraint firstItem="Bsw-9R-q0v" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="VVU-xq-Hgv"/>
+                            <constraint firstItem="L7m-mB-rbJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="160" id="VeW-nW-6Th"/>
+                            <constraint firstAttribute="bottom" secondItem="fYR-5Y-wua" secondAttribute="bottom" id="m6Z-We-Nrn"/>
+                            <constraint firstItem="qJT-ta-IwV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="177" id="stF-ar-zFO"/>
+                            <constraint firstItem="qJT-ta-IwV" firstAttribute="top" secondItem="Bsw-9R-q0v" secondAttribute="bottom" constant="-5" id="vHw-xx-Kj8"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LogoFinaLeoBranca" width="1385" height="1137"/>
+        <image name="Prancheta 1" width="1290" height="2796"/>
+    </resources>
+</document>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sign Up View Controller-->
+        <scene sceneID="JlX-bY-dDR">
+            <objects>
+                <viewController storyboardIdentifier="SignUpViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7zD-n2-9AX" customClass="SignUpViewController" customModule="PortifolioLeoLacerda" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Yt1-bz-PfH">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eKb-U0-8za">
+                                <rect key="frame" x="0.0" y="0.0" width="430" height="240"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Training" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zq8-z5-RaS">
+                                        <rect key="frame" x="93.666666666666671" y="90.333333333333329" width="242.66666666666663" height="49.666666666666671"/>
+                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="38"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" name="OrangeMeuTreino"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Zq8-z5-RaS" secondAttribute="bottom" constant="100" id="7vs-EM-rGt"/>
+                                    <constraint firstItem="Zq8-z5-RaS" firstAttribute="centerX" secondItem="eKb-U0-8za" secondAttribute="centerX" id="Ugn-Ep-UeR"/>
+                                    <constraint firstAttribute="height" constant="240" id="cf6-pS-lZu"/>
+                                </constraints>
+                            </view>
+                            <textField opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HTf-04-Vtu">
+                                <rect key="frame" x="20" y="345" width="390" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="HjI-UD-8ta"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="given-name"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wKB-cm-LKo">
+                                <rect key="frame" x="115" y="600" width="200" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="LvM-8a-a4L"/>
+                                    <constraint firstAttribute="width" constant="200" id="OO3-4I-8x9"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Create Account">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                    <color key="baseBackgroundColor" name="OrangeMeuTreino"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="pressedSignUpButton:" destination="7zD-n2-9AX" eventType="touchUpInside" id="2Nf-CL-CCQ"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KIM-7L-N5k">
+                                <rect key="frame" x="20" y="395" width="390" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="GVR-3Z-BXK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="family-name"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ave-MJ-vOC">
+                                <rect key="frame" x="20" y="445" width="390" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Srd-XG-ThR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="email"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q09-AX-Be8">
+                                <rect key="frame" x="20" y="495" width="390" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="0HD-sO-cKl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" secureTextEntry="YES" textContentType="new-password"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirm Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m4V-Mb-aZw">
+                                <rect key="frame" x="20" y="545" width="390" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="0vg-dW-fKa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" secureTextEntry="YES" textContentType="new-password"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo 1 aprimorada" translatesAutoresizingMaskIntoConstraints="NO" id="nFh-I2-i6y">
+                                <rect key="frame" x="125" y="150" width="180" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="nWV-1V-nnR"/>
+                                    <constraint firstAttribute="height" constant="180" id="vhE-QM-KOI"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cNr-dy-hh8"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="eKb-U0-8za" firstAttribute="trailing" secondItem="cNr-dy-hh8" secondAttribute="trailing" id="02e-Vu-710"/>
+                            <constraint firstItem="m4V-Mb-aZw" firstAttribute="leading" secondItem="cNr-dy-hh8" secondAttribute="leading" constant="20" id="2Fg-Ip-3k1"/>
+                            <constraint firstItem="cNr-dy-hh8" firstAttribute="trailing" secondItem="HTf-04-Vtu" secondAttribute="trailing" constant="20" id="A1G-AJ-Tdx"/>
+                            <constraint firstItem="cNr-dy-hh8" firstAttribute="trailing" secondItem="m4V-Mb-aZw" secondAttribute="trailing" constant="20" id="A2d-4i-CbC"/>
+                            <constraint firstItem="eKb-U0-8za" firstAttribute="top" secondItem="Yt1-bz-PfH" secondAttribute="top" id="D0l-y3-nT8"/>
+                            <constraint firstItem="KIM-7L-N5k" firstAttribute="leading" secondItem="cNr-dy-hh8" secondAttribute="leading" constant="20" id="EkV-GQ-n8I"/>
+                            <constraint firstItem="Ave-MJ-vOC" firstAttribute="leading" secondItem="cNr-dy-hh8" secondAttribute="leading" constant="20" id="FVs-qx-C7j"/>
+                            <constraint firstItem="KIM-7L-N5k" firstAttribute="top" secondItem="HTf-04-Vtu" secondAttribute="bottom" constant="15" id="Gjo-SD-fHw"/>
+                            <constraint firstItem="wKB-cm-LKo" firstAttribute="top" secondItem="m4V-Mb-aZw" secondAttribute="bottom" constant="20" id="JEQ-2P-4fe"/>
+                            <constraint firstItem="m4V-Mb-aZw" firstAttribute="top" secondItem="q09-AX-Be8" secondAttribute="bottom" constant="15" id="KPh-It-tSh"/>
+                            <constraint firstItem="q09-AX-Be8" firstAttribute="top" secondItem="Ave-MJ-vOC" secondAttribute="bottom" constant="15" id="NOC-QD-WvV"/>
+                            <constraint firstItem="cNr-dy-hh8" firstAttribute="trailing" secondItem="q09-AX-Be8" secondAttribute="trailing" constant="20" id="Ngs-iG-TNq"/>
+                            <constraint firstItem="HTf-04-Vtu" firstAttribute="top" secondItem="nFh-I2-i6y" secondAttribute="bottom" constant="15" id="QFs-g2-k2z"/>
+                            <constraint firstItem="Ave-MJ-vOC" firstAttribute="top" secondItem="KIM-7L-N5k" secondAttribute="bottom" constant="15" id="Ugf-UP-DV3"/>
+                            <constraint firstItem="q09-AX-Be8" firstAttribute="leading" secondItem="cNr-dy-hh8" secondAttribute="leading" constant="20" id="Uu5-SU-j15"/>
+                            <constraint firstItem="cNr-dy-hh8" firstAttribute="trailing" secondItem="Ave-MJ-vOC" secondAttribute="trailing" constant="20" id="WiT-2I-Q0Z"/>
+                            <constraint firstItem="HTf-04-Vtu" firstAttribute="leading" secondItem="cNr-dy-hh8" secondAttribute="leading" constant="20" id="e4f-Y2-OaY"/>
+                            <constraint firstItem="wKB-cm-LKo" firstAttribute="centerX" secondItem="Yt1-bz-PfH" secondAttribute="centerX" id="lrj-IV-3vt"/>
+                            <constraint firstItem="nFh-I2-i6y" firstAttribute="top" secondItem="eKb-U0-8za" secondAttribute="bottom" constant="-90" id="pjO-dQ-n6w"/>
+                            <constraint firstItem="nFh-I2-i6y" firstAttribute="centerX" secondItem="Yt1-bz-PfH" secondAttribute="centerX" id="toK-yC-Rdn"/>
+                            <constraint firstItem="eKb-U0-8za" firstAttribute="leading" secondItem="cNr-dy-hh8" secondAttribute="leading" id="yqU-7T-4cB"/>
+                            <constraint firstItem="cNr-dy-hh8" firstAttribute="trailing" secondItem="KIM-7L-N5k" secondAttribute="trailing" constant="20" id="zn8-C0-iJW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="confirmPasswordTextField" destination="m4V-Mb-aZw" id="SQI-4r-rkg"/>
+                        <outlet property="emailTextField" destination="Ave-MJ-vOC" id="Oel-vz-cPY"/>
+                        <outlet property="firstNameTextField" destination="HTf-04-Vtu" id="LTr-Q0-juG"/>
+                        <outlet property="lastNameTextField" destination="KIM-7L-N5k" id="uKL-5O-5q0"/>
+                        <outlet property="passwordTextField" destination="q09-AX-Be8" id="ioU-pb-dcf"/>
+                        <outlet property="signUpButton" destination="wKB-cm-LKo" id="IJF-Oh-Dok"/>
+                        <outlet property="titleLabel" destination="Zq8-z5-RaS" id="eRS-yv-aJA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aLB-V4-320" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="159.06976744186048" y="-11.587982832618026"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo 1 aprimorada" width="1194" height="1194"/>
+        <namedColor name="OrangeMeuTreino">
+            <color red="0.92900002002716064" green="0.4309999942779541" blue="0.25099998712539673" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
