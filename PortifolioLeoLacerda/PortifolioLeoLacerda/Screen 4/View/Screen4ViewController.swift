@@ -11,7 +11,7 @@ class Screen4ViewController: UIViewController {
 
     @IBOutlet weak var profileTableView: UITableView!
     @IBOutlet weak var profileImageView: UIImageView!
-    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var profileLabel: UILabel!
     @IBOutlet weak var editButton: UIButton!
     @IBOutlet weak var addButton: UIButton!
     @IBOutlet weak var profileNameTextField: UITextField!
@@ -25,6 +25,9 @@ class Screen4ViewController: UIViewController {
     }
     
     private func configureScreen4(){
+        profileLabel.shadowColor = UIColor.lightGray
+        profileLabel.shadowOffset = CGSize(width:-1, height: -1)
+        
         profileNameTextField.delegate = self
         profileNameTextField.autocapitalizationType = .words
                 

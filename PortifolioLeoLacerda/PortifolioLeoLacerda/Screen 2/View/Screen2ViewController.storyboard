@@ -51,6 +51,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="applicationsLabel" destination="aPR-Bc-cS8" id="P7z-pr-rtA"/>
                         <outlet property="applicationsTableView" destination="hXe-Df-xan" id="z8y-7B-UzD"/>
                     </connections>
                 </viewController>
