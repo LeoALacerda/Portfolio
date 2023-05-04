@@ -70,9 +70,9 @@ class Screen4ViewController: UIViewController {
             alertController.addAction(okButton)
             present(alertController, animated: true)
         }else{
-            let alertController = UIAlertController(title: "Are you sure?", message: "Do you want to remove all profiles?", preferredStyle: .alert)
+            let alertController = UIAlertController(title: "Delete all profiles?", message: "Are you sure you want to permanently remove all profiles? This cannot be undone.", preferredStyle: .alert)
             
-            let yesButton = UIAlertAction(title: "Yes", style: .destructive) { action in
+            let yesButton = UIAlertAction(title: "Yes, clear all", style: .destructive) { action in
                 self.viewModel.clearAllProfile()
                 self.profileTableView.reloadData()
             }

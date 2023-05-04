@@ -58,7 +58,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="353" height="35.666666666666664"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Variáveis / Constantes">
-                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
                                             <color key="baseBackgroundColor" red="0.18285568665575103" green="0.18285568665575103" blue="0.18285568665575103" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -69,7 +69,7 @@
                                         <rect key="frame" x="0.0" y="63.666666666666657" width="353" height="35.666666666666657"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Funções">
-                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
                                             <color key="baseBackgroundColor" red="0.18285568665575103" green="0.18285568665575103" blue="0.18285568665575103" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -80,7 +80,7 @@
                                         <rect key="frame" x="0.0" y="127.3333333333333" width="353" height="35.333333333333329"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Coleções">
-                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
                                             <color key="baseBackgroundColor" red="0.18285568665575103" green="0.18285568665575103" blue="0.18285568665575103" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -91,7 +91,7 @@
                                         <rect key="frame" x="0.0" y="190.66666666666669" width="353" height="35.666666666666657"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Estrutura de Repetição">
-                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
                                             <color key="baseBackgroundColor" red="0.18285568665575103" green="0.18285568665575103" blue="0.18285568665575103" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -102,7 +102,7 @@
                                         <rect key="frame" x="0.0" y="254.33333333333329" width="353" height="35.666666666666657"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Estrutura Condicional">
-                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
                                             <color key="baseBackgroundColor" red="0.18285568665575103" green="0.18285568665575103" blue="0.18285568665575103" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -113,7 +113,7 @@
                                         <rect key="frame" x="0.0" y="318" width="353" height="35.666666666666686"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Classe">
-                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
                                             <color key="baseBackgroundColor" red="0.18285568665575103" green="0.18285568665575103" blue="0.18285568665575103" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -124,7 +124,7 @@
                                         <rect key="frame" x="0.0" y="381.66666666666663" width="353" height="35.666666666666686"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Herança">
-                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
                                             <color key="baseBackgroundColor" red="0.18285568665575103" green="0.18285568665575103" blue="0.18285568665575103" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -135,7 +135,7 @@
                                         <rect key="frame" x="0.0" y="445.33333333333337" width="353" height="35.333333333333314"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Encapsulamento">
-                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
                                             <color key="baseBackgroundColor" red="0.18285568665575103" green="0.18285568665575103" blue="0.18285568665575103" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -146,7 +146,7 @@
                                         <rect key="frame" x="0.0" y="508.66666666666669" width="353" height="35.666666666666686"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Struct">
-                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
                                             <color key="baseBackgroundColor" red="0.18285568665575103" green="0.18285568665575103" blue="0.18285568665575103" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -157,7 +157,7 @@
                                         <rect key="frame" x="0.0" y="572.33333333333337" width="353" height="35.666666666666629"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Polimorfismo">
-                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
                                             <color key="baseBackgroundColor" red="0.18285568665575103" green="0.18285568665575103" blue="0.18285568665575103" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
                                         <connections>

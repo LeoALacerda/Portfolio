@@ -23,6 +23,15 @@ class ApplicationsViewModel{
                         Application(appTitle: "Udemy", appImage: "Udemy")
                     ]
                 ),
+        Category(categoryName: "Music Streamings", categoryList:
+                    [
+                        Application(appTitle: "Tidal", appImage: "Tidal"),
+                        Application(appTitle: "Apple Music", appImage: "Apple Music"),
+                        Application(appTitle: "Spotify", appImage: "Spotify"),
+                        Application(appTitle: "SoundCloud", appImage: "SoundCloud"),
+                        Application(appTitle: "Youtube Music", appImage: "Youtube Music"),
+                    ]
+                ),
         Category(categoryName: "Games", categoryList:
                     [
                         Application(appTitle: "Mario Kart Tour", appImage: "Mario Kart Tour"),
@@ -56,17 +65,7 @@ class ApplicationsViewModel{
                         Application(appTitle: "Globoplay", appImage: "Globoplay"),
                         Application(appTitle: "Paramount+", appImage: "Paramount+")
                     ]
-                ),
-        Category(categoryName: "Music Streamings", categoryList:
-                    [
-                        Application(appTitle: "Apple Music", appImage: "Apple Music"),
-                        Application(appTitle: "Spotify", appImage: "Spotify"),
-                        Application(appTitle: "SoundCloud", appImage: "SoundCloud"),
-                        Application(appTitle: "Youtube Music", appImage: "Youtube Music"),
-                        Application(appTitle: "Amazon Music", appImage: "Amazon Music"),
-                        Application(appTitle: "Tidal", appImage: "Tidal"),
-                        Application(appTitle: "Deezer", appImage: "Deezer")
-                    ]
                 )
+       
     ]
 }
