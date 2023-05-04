@@ -40,6 +40,8 @@
 		B154BE3429FC7852001F5D93 /* ApplicationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B154BE3329FC7852001F5D93 /* ApplicationsViewModel.swift */; };
 		B178E4112A021B04001CA128 /* AppPageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B178E4102A021B04001CA128 /* AppPageViewController.storyboard */; };
 		B178E4132A021B16001CA128 /* AppPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B178E4122A021B16001CA128 /* AppPageViewController.swift */; };
+		B1A8D4012A034BE600494822 /* VarLetViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A8D4002A034BE600494822 /* VarLetViewController.storyboard */; };
+		B1A8D4032A034BF700494822 /* VarLetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A8D4022A034BF700494822 /* VarLetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +80,8 @@
 		B154BE3329FC7852001F5D93 /* ApplicationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationsViewModel.swift; sourceTree = "<group>"; };
 		B178E4102A021B04001CA128 /* AppPageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AppPageViewController.storyboard; sourceTree = "<group>"; };
 		B178E4122A021B16001CA128 /* AppPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPageViewController.swift; sourceTree = "<group>"; };
+		B1A8D4002A034BE600494822 /* VarLetViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VarLetViewController.storyboard; sourceTree = "<group>"; };
+		B1A8D4022A034BF700494822 /* VarLetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VarLetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,20 +118,20 @@
 				B10E147929FADAB600023F2C /* Screen 3 */,
 				B10E147729FADAA400023F2C /* Screen 2 */,
 				B10E147629FADA9200023F2C /* Screen 1 */,
-				B10E147429FAD9C300023F2C /* View */,
+				B10E147429FAD9C300023F2C /* TabBar */,
 				B10E147529FAD9F600023F2C /* Resources */,
 				B10E146E29FAD4B600023F2C /* Info.plist */,
 			);
 			path = PortifolioLeoLacerda;
 			sourceTree = "<group>";
 		};
-		B10E147429FAD9C300023F2C /* View */ = {
+		B10E147429FAD9C300023F2C /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
 				B10E146429FAD4B300023F2C /* TabBarController.swift */,
 				B10E146629FAD4B300023F2C /* Main.storyboard */,
 			);
-			path = View;
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 		B10E147529FAD9F600023F2C /* Resources */ = {
@@ -144,8 +148,8 @@
 		B10E147629FADA9200023F2C /* Screen 1 */ = {
 			isa = PBXGroup;
 			children = (
-				B10E147A29FADB8E00023F2C /* Screen1ViewController.storyboard */,
-				B10E147C29FADBBA00023F2C /* Screen1ViewController.swift */,
+				B1A8D3FF2A034A7300494822 /* Variável - Constante */,
+				B1A8D3FE2A034A5E00494822 /* View */,
 			);
 			path = "Screen 1";
 			sourceTree = "<group>";
@@ -308,6 +312,25 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		B1A8D3FE2A034A5E00494822 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B10E147A29FADB8E00023F2C /* Screen1ViewController.storyboard */,
+				B10E147C29FADBBA00023F2C /* Screen1ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1A8D3FF2A034A7300494822 /* Variável - Constante */ = {
+			isa = PBXGroup;
+			children = (
+				B1A8D4002A034BE600494822 /* VarLetViewController.storyboard */,
+				B1A8D4022A034BF700494822 /* VarLetViewController.swift */,
+			);
+			name = "Variável - Constante";
+			path = "Variável - Constante";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -367,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B178E4112A021B04001CA128 /* AppPageViewController.storyboard in Resources */,
+				B1A8D4012A034BE600494822 /* VarLetViewController.storyboard in Resources */,
 				B154BE2029FC7549001F5D93 /* HomeViewController.storyboard in Resources */,
 				B154BE2A29FC77FE001F5D93 /* ApplicationsTableViewCell.xib in Resources */,
 				B12A88A129FC55B000ACC971 /* Screen4TableViewCell.xib in Resources */,
@@ -408,6 +432,7 @@
 				B154BE3029FC782F001F5D93 /* Category.swift in Sources */,
 				B154BE2D29FC780E001F5D93 /* ApplicationsCollectionViewCell.swift in Sources */,
 				B10E146329FAD4B300023F2C /* SceneDelegate.swift in Sources */,
+				B1A8D4032A034BF700494822 /* VarLetViewController.swift in Sources */,
 				B154BE2229FC7552001F5D93 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
