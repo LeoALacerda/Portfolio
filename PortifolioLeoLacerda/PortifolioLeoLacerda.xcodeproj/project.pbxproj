@@ -38,10 +38,13 @@
 		B154BE3029FC782F001F5D93 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B154BE2F29FC782F001F5D93 /* Category.swift */; };
 		B154BE3229FC783B001F5D93 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = B154BE3129FC783B001F5D93 /* Application.swift */; };
 		B154BE3429FC7852001F5D93 /* ApplicationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B154BE3329FC7852001F5D93 /* ApplicationsViewModel.swift */; };
+		B177D6FE2A0C0E0100EDDD32 /* AppPageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B177D6FC2A0C0E0100EDDD32 /* AppPageCollectionViewCell.swift */; };
+		B177D6FF2A0C0E0100EDDD32 /* AppPageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B177D6FD2A0C0E0100EDDD32 /* AppPageCollectionViewCell.xib */; };
 		B178E4112A021B04001CA128 /* AppPageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B178E4102A021B04001CA128 /* AppPageViewController.storyboard */; };
 		B178E4132A021B16001CA128 /* AppPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B178E4122A021B16001CA128 /* AppPageViewController.swift */; };
 		B1A8D4012A034BE600494822 /* VarLetViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A8D4002A034BE600494822 /* VarLetViewController.storyboard */; };
 		B1A8D4032A034BF700494822 /* VarLetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A8D4022A034BF700494822 /* VarLetViewController.swift */; };
+		B1DD07D52A09845D0065B01A /* Concepts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DD07D42A09845D0065B01A /* Concepts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,10 +81,13 @@
 		B154BE2F29FC782F001F5D93 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		B154BE3129FC783B001F5D93 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		B154BE3329FC7852001F5D93 /* ApplicationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationsViewModel.swift; sourceTree = "<group>"; };
+		B177D6FC2A0C0E0100EDDD32 /* AppPageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPageCollectionViewCell.swift; sourceTree = "<group>"; };
+		B177D6FD2A0C0E0100EDDD32 /* AppPageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppPageCollectionViewCell.xib; sourceTree = "<group>"; };
 		B178E4102A021B04001CA128 /* AppPageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AppPageViewController.storyboard; sourceTree = "<group>"; };
 		B178E4122A021B16001CA128 /* AppPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPageViewController.swift; sourceTree = "<group>"; };
 		B1A8D4002A034BE600494822 /* VarLetViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VarLetViewController.storyboard; sourceTree = "<group>"; };
 		B1A8D4022A034BF700494822 /* VarLetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VarLetViewController.swift; sourceTree = "<group>"; };
+		B1DD07D42A09845D0065B01A /* Concepts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concepts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,8 +154,8 @@
 		B10E147629FADA9200023F2C /* Screen 1 */ = {
 			isa = PBXGroup;
 			children = (
-				B1A8D3FF2A034A7300494822 /* Variável - Constante */,
-				B1A8D3FE2A034A5E00494822 /* View */,
+				B177D7042A0C1B5C00EDDD32 /* Concept Pages */,
+				B177D7022A0C1B2200EDDD32 /* Concepts */,
 			);
 			path = "Screen 1";
 			sourceTree = "<group>";
@@ -157,12 +163,9 @@
 		B10E147729FADAA400023F2C /* Screen 2 */ = {
 			isa = PBXGroup;
 			children = (
-				B178E40D2A021ABE001CA128 /* App Page */,
 				B154BE2529FC77CC001F5D93 /* Model */,
-				B154BE2429FC77C4001F5D93 /* CollectionViewCell */,
-				B154BE2329FC77B5001F5D93 /* TableViewCell */,
-				B178E4142A021BE5001CA128 /* View */,
-				B154BE2629FC77D2001F5D93 /* ViewModel */,
+				B178E40D2A021ABE001CA128 /* App Page */,
+				B177D7012A0C1AF400EDDD32 /* Favorite Applications */,
 			);
 			path = "Screen 2";
 			sourceTree = "<group>";
@@ -294,11 +297,58 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		B178E40D2A021ABE001CA128 /* App Page */ = {
+		B177D6FB2A0C0DCF00EDDD32 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B177D6FC2A0C0E0100EDDD32 /* AppPageCollectionViewCell.swift */,
+				B177D6FD2A0C0E0100EDDD32 /* AppPageCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B177D7002A0C1ABE00EDDD32 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				B178E4102A021B04001CA128 /* AppPageViewController.storyboard */,
 				B178E4122A021B16001CA128 /* AppPageViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B177D7012A0C1AF400EDDD32 /* Favorite Applications */ = {
+			isa = PBXGroup;
+			children = (
+				B154BE2429FC77C4001F5D93 /* CollectionViewCell */,
+				B154BE2329FC77B5001F5D93 /* TableViewCell */,
+				B178E4142A021BE5001CA128 /* View */,
+				B154BE2629FC77D2001F5D93 /* ViewModel */,
+			);
+			path = "Favorite Applications";
+			sourceTree = "<group>";
+		};
+		B177D7022A0C1B2200EDDD32 /* Concepts */ = {
+			isa = PBXGroup;
+			children = (
+				B1DD07CE2A09838F0065B01A /* Model */,
+				B1A8D3FE2A034A5E00494822 /* View */,
+				B1DD07CF2A0983960065B01A /* ViewModel */,
+			);
+			path = Concepts;
+			sourceTree = "<group>";
+		};
+		B177D7042A0C1B5C00EDDD32 /* Concept Pages */ = {
+			isa = PBXGroup;
+			children = (
+				B1A8D3FF2A034A7300494822 /* Variável - Constante */,
+			);
+			path = "Concept Pages";
+			sourceTree = "<group>";
+		};
+		B178E40D2A021ABE001CA128 /* App Page */ = {
+			isa = PBXGroup;
+			children = (
+				B177D6FB2A0C0DCF00EDDD32 /* Cell */,
+				B177D7002A0C1ABE00EDDD32 /* View */,
 			);
 			path = "App Page";
 			sourceTree = "<group>";
@@ -306,8 +356,8 @@
 		B178E4142A021BE5001CA128 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B10E147E29FADD5100023F2C /* Screen2ViewController.storyboard */,
 				B10E148029FADD5C00023F2C /* Screen2ViewController.swift */,
+				B10E147E29FADD5100023F2C /* Screen2ViewController.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -329,6 +379,21 @@
 			);
 			name = "Variável - Constante";
 			path = "Variável - Constante";
+			sourceTree = "<group>";
+		};
+		B1DD07CE2A09838F0065B01A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B1DD07D42A09845D0065B01A /* Concepts.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B1DD07CF2A0983960065B01A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,6 +457,7 @@
 				B178E4112A021B04001CA128 /* AppPageViewController.storyboard in Resources */,
 				B1A8D4012A034BE600494822 /* VarLetViewController.storyboard in Resources */,
 				B154BE2029FC7549001F5D93 /* HomeViewController.storyboard in Resources */,
+				B177D6FF2A0C0E0100EDDD32 /* AppPageCollectionViewCell.xib in Resources */,
 				B154BE2A29FC77FE001F5D93 /* ApplicationsTableViewCell.xib in Resources */,
 				B12A88A129FC55B000ACC971 /* Screen4TableViewCell.xib in Resources */,
 				B10E146D29FAD4B600023F2C /* LaunchScreen.storyboard in Resources */,
@@ -418,6 +484,7 @@
 				B12A88A029FC55B000ACC971 /* Screen4TableViewCell.swift in Sources */,
 				B10E148529FADD7A00023F2C /* Screen3ViewController.swift in Sources */,
 				B154BE2929FC77FE001F5D93 /* ApplicationsTableViewCell.swift in Sources */,
+				B1DD07D52A09845D0065B01A /* Concepts.swift in Sources */,
 				B154BE1D29FC7488001F5D93 /* ForgotPasswordViewController.swift in Sources */,
 				B10E146529FAD4B300023F2C /* TabBarController.swift in Sources */,
 				B12900822A016A5500360AD1 /* SignUpViewController.swift in Sources */,
@@ -428,6 +495,7 @@
 				B10E148129FADD5C00023F2C /* Screen2ViewController.swift in Sources */,
 				B12A889429FC550F00ACC971 /* Screen4ViewModel.swift in Sources */,
 				B12A889829FC553800ACC971 /* Profile.swift in Sources */,
+				B177D6FE2A0C0E0100EDDD32 /* AppPageCollectionViewCell.swift in Sources */,
 				B178E4132A021B16001CA128 /* AppPageViewController.swift in Sources */,
 				B154BE3029FC782F001F5D93 /* Category.swift in Sources */,
 				B154BE2D29FC780E001F5D93 /* ApplicationsCollectionViewCell.swift in Sources */,

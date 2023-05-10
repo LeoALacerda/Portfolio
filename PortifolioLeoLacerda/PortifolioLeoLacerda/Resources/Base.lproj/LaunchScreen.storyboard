@@ -46,11 +46,11 @@
                             <constraint firstItem="Bsw-9R-q0v" firstAttribute="top" secondItem="L7m-mB-rbJ" secondAttribute="bottom" id="5xl-GZ-gx4"/>
                             <constraint firstItem="L7m-mB-rbJ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="HaP-Ey-fms"/>
                             <constraint firstItem="fYR-5Y-wua" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="IAg-Hz-d1Y"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qJT-ta-IwV" secondAttribute="trailing" constant="97" id="SRK-oe-lgK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="qJT-ta-IwV" secondAttribute="trailing" constant="97" id="Ryy-8B-qBI"/>
+                            <constraint firstItem="qJT-ta-IwV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="177" id="SH3-5h-a3m"/>
                             <constraint firstItem="Bsw-9R-q0v" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="VVU-xq-Hgv"/>
                             <constraint firstItem="L7m-mB-rbJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="160" id="VeW-nW-6Th"/>
                             <constraint firstAttribute="bottom" secondItem="fYR-5Y-wua" secondAttribute="bottom" id="m6Z-We-Nrn"/>
-                            <constraint firstItem="qJT-ta-IwV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="177" id="stF-ar-zFO"/>
                             <constraint firstItem="qJT-ta-IwV" firstAttribute="top" secondItem="Bsw-9R-q0v" secondAttribute="bottom" constant="-5" id="vHw-xx-Kj8"/>
                         </constraints>
                     </view>
