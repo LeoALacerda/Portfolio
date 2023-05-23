@@ -45,9 +45,12 @@
 		B1A8D4012A034BE600494822 /* VarLetViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A8D4002A034BE600494822 /* VarLetViewController.storyboard */; };
 		B1A8D4032A034BF700494822 /* VarLetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A8D4022A034BF700494822 /* VarLetViewController.swift */; };
 		B1DD07D52A09845D0065B01A /* Concepts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DD07D42A09845D0065B01A /* Concepts.swift */; };
+		B8C77F52ACF2E321BBD0F864 /* Pods_PortifolioLeoLacerda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 578638481B6D1F5C067C6701 /* Pods_PortifolioLeoLacerda.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		578638481B6D1F5C067C6701 /* Pods_PortifolioLeoLacerda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PortifolioLeoLacerda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C09A755E5FA8D85B9BB2820 /* Pods-PortifolioLeoLacerda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PortifolioLeoLacerda.release.xcconfig"; path = "Target Support Files/Pods-PortifolioLeoLacerda/Pods-PortifolioLeoLacerda.release.xcconfig"; sourceTree = "<group>"; };
 		B10E145D29FAD4B300023F2C /* PortifolioLeoLacerda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortifolioLeoLacerda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B10E146029FAD4B300023F2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B10E146229FAD4B300023F2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +91,7 @@
 		B1A8D4002A034BE600494822 /* VarLetViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VarLetViewController.storyboard; sourceTree = "<group>"; };
 		B1A8D4022A034BF700494822 /* VarLetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VarLetViewController.swift; sourceTree = "<group>"; };
 		B1DD07D42A09845D0065B01A /* Concepts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concepts.swift; sourceTree = "<group>"; };
+		D19FBF0BAF4B52B020CCF7D8 /* Pods-PortifolioLeoLacerda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PortifolioLeoLacerda.debug.xcconfig"; path = "Target Support Files/Pods-PortifolioLeoLacerda/Pods-PortifolioLeoLacerda.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,17 +99,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8C77F52ACF2E321BBD0F864 /* Pods_PortifolioLeoLacerda.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62C0B4911FCC1EC965E571B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578638481B6D1F5C067C6701 /* Pods_PortifolioLeoLacerda.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B10E145429FAD4B300023F2C = {
 			isa = PBXGroup;
 			children = (
 				B10E145F29FAD4B300023F2C /* PortifolioLeoLacerda */,
 				B10E145E29FAD4B300023F2C /* Products */,
+				D300DE98140AC6FC6858E1FE /* Pods */,
+				62C0B4911FCC1EC965E571B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -339,7 +354,7 @@
 		B177D7042A0C1B5C00EDDD32 /* Concept Pages */ = {
 			isa = PBXGroup;
 			children = (
-				B1A8D3FF2A034A7300494822 /* Variável - Constante */,
+				B1A8D3FF2A034A7300494822 /* Variável - Constante */,
 			);
 			path = "Concept Pages";
 			sourceTree = "<group>";
@@ -371,7 +386,7 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		B1A8D3FF2A034A7300494822 /* Variável - Constante */ = {
+		B1A8D3FF2A034A7300494822 /* Variável - Constante */ = {
 			isa = PBXGroup;
 			children = (
 				B1A8D4002A034BE600494822 /* VarLetViewController.storyboard */,
@@ -396,6 +411,16 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		D300DE98140AC6FC6858E1FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D19FBF0BAF4B52B020CCF7D8 /* Pods-PortifolioLeoLacerda.debug.xcconfig */,
+				8C09A755E5FA8D85B9BB2820 /* Pods-PortifolioLeoLacerda.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -403,9 +428,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B10E147129FAD4B600023F2C /* Build configuration list for PBXNativeTarget "PortifolioLeoLacerda" */;
 			buildPhases = (
+				2575B66B8893B4CF14F2B748 /* [CP] Check Pods Manifest.lock */,
 				B10E145929FAD4B300023F2C /* Sources */,
 				B10E145A29FAD4B300023F2C /* Frameworks */,
 				B10E145B29FAD4B300023F2C /* Resources */,
+				E76E6163AE8EE31917852566 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -474,6 +501,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2575B66B8893B4CF14F2B748 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PortifolioLeoLacerda-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E76E6163AE8EE31917852566 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PortifolioLeoLacerda/Pods-PortifolioLeoLacerda-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PortifolioLeoLacerda/Pods-PortifolioLeoLacerda-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PortifolioLeoLacerda/Pods-PortifolioLeoLacerda-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B10E145929FAD4B300023F2C /* Sources */ = {
@@ -643,6 +712,7 @@
 		};
 		B10E147229FAD4B600023F2C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D19FBF0BAF4B52B020CCF7D8 /* Pods-PortifolioLeoLacerda.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -672,6 +742,7 @@
 		};
 		B10E147329FAD4B600023F2C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C09A755E5FA8D85B9BB2820 /* Pods-PortifolioLeoLacerda.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
