@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="MdB-fo-WcI">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item-->
+        <scene sceneID="6FC-KO-xZm">
+            <objects>
+                <viewController storyboardIdentifier="Screen1ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="MdB-fo-WcI" customClass="Screen1ViewController" customModule="PortifolioLeoLacerda" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qdW-j0-aPK">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="34C-xk-hYJ" customClass="UIImageView">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="140"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FundoPretoDegrade" translatesAutoresizingMaskIntoConstraints="NO" id="u6x-9I-SOy">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="140"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="140" id="lJV-fr-y3F"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Portfolio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6O-JI-uni">
+                                        <rect key="frame" x="223.66666666666663" y="63" width="152.33333333333337" height="52"/>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by Leo Lacerda" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5fb-fQ-yL0">
+                                        <rect key="frame" x="266" y="109" width="119" height="22.333333333333343"/>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.18063887338789686" green="0.18063887338789686" blue="0.18063887338789686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="5fb-fQ-yL0" secondAttribute="trailing" constant="8" id="Hku-40-gSM"/>
+                                    <constraint firstItem="u6x-9I-SOy" firstAttribute="leading" secondItem="34C-xk-hYJ" secondAttribute="leading" id="MEb-vi-F5w"/>
+                                    <constraint firstItem="5fb-fQ-yL0" firstAttribute="top" secondItem="s6O-JI-uni" secondAttribute="bottom" constant="-6" id="Pnc-TD-1x4"/>
+                                    <constraint firstItem="5fb-fQ-yL0" firstAttribute="leading" secondItem="s6O-JI-uni" secondAttribute="trailing" constant="-110" id="f43-Dp-Iu6"/>
+                                    <constraint firstItem="u6x-9I-SOy" firstAttribute="top" secondItem="34C-xk-hYJ" secondAttribute="top" id="fSo-62-SaR"/>
+                                    <constraint firstAttribute="trailing" secondItem="s6O-JI-uni" secondAttribute="trailing" constant="17" id="r5w-SL-JpP"/>
+                                    <constraint firstAttribute="bottom" secondItem="s6O-JI-uni" secondAttribute="bottom" constant="25" id="r84-6s-eMD"/>
+                                    <constraint firstAttribute="trailing" secondItem="u6x-9I-SOy" secondAttribute="trailing" id="ryr-Gc-EM6"/>
+                                    <constraint firstAttribute="height" constant="140" id="sPY-sN-AaT"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Mrc-xm-cF4">
+                                <rect key="frame" x="20" y="170" width="353" height="608"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AxY-Ty-3Id">
+                                        <rect key="frame" x="0.0" y="0.0" width="353" height="47.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Variáveis / Constantes">
+                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                            <color key="baseBackgroundColor" red="0.18285568665575103" green="0.18285568665575103" blue="0.18285568665575103" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="pressedVarLetButton:" destination="MdB-fo-WcI" eventType="touchUpInside" id="R2y-FG-ad7"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3wp-ye-IM5">
+                                        <rect key="frame" x="0.0" y="62.333333333333343" width="353" height="47.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Funções">
+                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                            <color key="baseBackgroundColor" red="0.18285568665575103" green="0.18285568665575103" blue="0.18285568665575103" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="pressedFunctionsButton:" destination="MdB-fo-WcI" eventType="touchUpInside" id="l0y-kc-J7f"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1V0-ey-SWX">
+                                        <rect key="frame" x="0.0" y="124.66666666666667" width="353" height="47.333333333333329"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Coleções">
+                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                            <color key="baseBackgroundColor" red="0.18285568665575103" green="0.18285568665575103" blue="0.18285568665575103" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="pressedCollectionButton:" destination="MdB-fo-WcI" eventType="touchUpInside" id="u6H-vw-13Y"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NlS-5I-ymR">
+                                        <rect key="frame" x="0.0" y="187" width="353" height="47.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Estrutura de Repetição">
+                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                            <color key="baseBackgroundColor" red="0.18285568665575103" green="0.18285568665575103" blue="0.18285568665575103" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="pressedWhileForRepeatButton:" destination="MdB-fo-WcI" eventType="touchUpInside" id="uHY-6K-VFI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ce9-Ev-4Ug">
+                                        <rect key="frame" x="0.0" y="249.33333333333334" width="353" height="47.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Estrutura Condicional">
+                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                            <color key="baseBackgroundColor" red="0.18285568665575103" green="0.18285568665575103" blue="0.18285568665575103" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="pressedIfElseButton:" destination="MdB-fo-WcI" eventType="touchUpInside" id="FLV-93-kqh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dde-sE-mis">
+                                        <rect key="frame" x="0.0" y="311.66666666666669" width="353" height="47"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Classe">
+                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                            <color key="baseBackgroundColor" red="0.18285568665575103" green="0.18285568665575103" blue="0.18285568665575103" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="pressedClassButton:" destination="MdB-fo-WcI" eventType="touchUpInside" id="W3q-2w-Ruu"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hv2-au-Dvq">
+                                        <rect key="frame" x="0.0" y="373.66666666666663" width="353" height="47.333333333333314"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Herança">
+                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                            <color key="baseBackgroundColor" red="0.18285568665575103" green="0.18285568665575103" blue="0.18285568665575103" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="pressedInheritanceButton:" destination="MdB-fo-WcI" eventType="touchUpInside" id="9Eq-BH-w74"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12y-v9-kQg">
+                                        <rect key="frame" x="0.0" y="436" width="353" height="47.333333333333314"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Encapsulamento">
+                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                            <color key="baseBackgroundColor" red="0.18285568665575103" green="0.18285568665575103" blue="0.18285568665575103" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="pressedEncapsulationButton:" destination="MdB-fo-WcI" eventType="touchUpInside" id="hfz-gk-3P4"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rS7-Qh-HvQ">
+                                        <rect key="frame" x="0.0" y="498.33333333333331" width="353" height="47.333333333333314"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Polimorfismo">
+                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                            <color key="baseBackgroundColor" red="0.18285568665575103" green="0.18285568665575103" blue="0.18285568665575103" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="pressedPolymorphismButton:" destination="MdB-fo-WcI" eventType="touchUpInside" id="AUJ-ja-j3U"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HtP-EX-u58">
+                                        <rect key="frame" x="0.0" y="560.66666666666663" width="353" height="47.333333333333371"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Struct">
+                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                            <color key="baseBackgroundColor" red="0.18285568665575103" green="0.18285568665575103" blue="0.18285568665575103" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="pressedStructButton:" destination="MdB-fo-WcI" eventType="touchUpInside" id="etB-WY-dMN"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="UJn-Oo-vqs"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Mrc-xm-cF4" firstAttribute="leading" secondItem="UJn-Oo-vqs" secondAttribute="leading" constant="20" id="D9w-Na-sKn"/>
+                            <constraint firstItem="34C-xk-hYJ" firstAttribute="trailing" secondItem="UJn-Oo-vqs" secondAttribute="trailing" id="Out-RC-CQi"/>
+                            <constraint firstItem="UJn-Oo-vqs" firstAttribute="bottom" secondItem="Mrc-xm-cF4" secondAttribute="bottom" constant="40" id="ROV-ZX-AdP"/>
+                            <constraint firstItem="UJn-Oo-vqs" firstAttribute="trailing" secondItem="Mrc-xm-cF4" secondAttribute="trailing" constant="20" id="Rxc-fT-L9l"/>
+                            <constraint firstItem="Mrc-xm-cF4" firstAttribute="top" secondItem="34C-xk-hYJ" secondAttribute="bottom" constant="30" id="ZGK-aV-Z2T"/>
+                            <constraint firstItem="34C-xk-hYJ" firstAttribute="leading" secondItem="UJn-Oo-vqs" secondAttribute="leading" id="aJU-hv-J4I"/>
+                            <constraint firstItem="34C-xk-hYJ" firstAttribute="top" secondItem="qdW-j0-aPK" secondAttribute="top" id="lGa-MG-YEs"/>
+                            <constraint firstItem="Mrc-xm-cF4" firstAttribute="centerX" secondItem="qdW-j0-aPK" secondAttribute="centerX" id="s3r-oK-fc1"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="s48-l2-M12"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T7s-vE-cWu" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="973.28244274809151" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="FundoPretoDegrade" width="1024" height="1024"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

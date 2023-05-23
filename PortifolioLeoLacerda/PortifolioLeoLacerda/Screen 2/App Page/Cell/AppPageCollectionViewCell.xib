@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -16,26 +16,26 @@
                 <rect key="frame" x="0.0" y="0.0" width="194" height="409"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CrossyRoad2" translatesAutoresizingMaskIntoConstraints="NO" id="o7S-9Z-1Nt">
-                        <rect key="frame" x="-20" y="-23" width="234" height="438"/>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppleMusic1" translatesAutoresizingMaskIntoConstraints="NO" id="o7S-9Z-1Nt">
+                        <rect key="frame" x="0.0" y="0.0" width="194" height="409"/>
                     </imageView>
                 </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
-                <constraint firstItem="o7S-9Z-1Nt" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="-20" id="49T-Us-pbd"/>
-                <constraint firstItem="o7S-9Z-1Nt" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="-23" id="HdG-tN-G4Y"/>
-                <constraint firstAttribute="trailing" secondItem="o7S-9Z-1Nt" secondAttribute="trailing" constant="-20" id="fkV-lG-i0X"/>
-                <constraint firstAttribute="bottom" secondItem="o7S-9Z-1Nt" secondAttribute="bottom" constant="-6" id="kxl-Wu-VGp"/>
+                <constraint firstItem="o7S-9Z-1Nt" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="49T-Us-pbd"/>
+                <constraint firstItem="o7S-9Z-1Nt" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="HdG-tN-G4Y"/>
+                <constraint firstAttribute="trailing" secondItem="o7S-9Z-1Nt" secondAttribute="trailing" id="fkV-lG-i0X"/>
+                <constraint firstAttribute="bottom" secondItem="o7S-9Z-1Nt" secondAttribute="bottom" id="kxl-Wu-VGp"/>
             </constraints>
             <size key="customSize" width="194" height="409"/>
             <connections>
                 <outlet property="screenshotImageView" destination="o7S-9Z-1Nt" id="xjD-TQ-5zq"/>
             </connections>
-            <point key="canvasLocation" x="253.43511450381678" y="131.33802816901408"/>
+            <point key="canvasLocation" x="252.80000000000001" y="129.98500749625188"/>
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="CrossyRoad2" width="1284" height="2778"/>
+        <image name="AppleMusic1" width="1104" height="2329"/>
     </resources>
 </document>

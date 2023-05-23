@@ -42,9 +42,18 @@
 		B177D6FF2A0C0E0100EDDD32 /* AppPageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B177D6FD2A0C0E0100EDDD32 /* AppPageCollectionViewCell.xib */; };
 		B178E4112A021B04001CA128 /* AppPageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B178E4102A021B04001CA128 /* AppPageViewController.storyboard */; };
 		B178E4132A021B16001CA128 /* AppPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B178E4122A021B16001CA128 /* AppPageViewController.swift */; };
-		B1A8D4012A034BE600494822 /* VarLetViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A8D4002A034BE600494822 /* VarLetViewController.storyboard */; };
-		B1A8D4032A034BF700494822 /* VarLetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A8D4022A034BF700494822 /* VarLetViewController.swift */; };
-		B1DD07D52A09845D0065B01A /* Concepts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DD07D42A09845D0065B01A /* Concepts.swift */; };
+		B1A8D4012A034BE600494822 /* ConceptPageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A8D4002A034BE600494822 /* ConceptPageViewController.storyboard */; };
+		B1A8D4032A034BF700494822 /* ConceptPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A8D4022A034BF700494822 /* ConceptPageViewController.swift */; };
+		B1DA8C972A1D538E00BCCF00 /* Variaveis Constantes.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B1DA8C962A1D538E00BCCF00 /* Variaveis Constantes.pdf */; };
+		B1DA8C9C2A1D5BF200BCCF00 /* Funções.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B1DA8C9B2A1D5BF200BCCF00 /* Funções.pdf */; };
+		B1DA8C9E2A1D5CB900BCCF00 /* Coleções.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B1DA8C9D2A1D5CB900BCCF00 /* Coleções.pdf */; };
+		B1DA8CA02A1D5E2D00BCCF00 /* Estrutura Condicional.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B1DA8C9F2A1D5E2D00BCCF00 /* Estrutura Condicional.pdf */; };
+		B1DA8CA22A1D5F1F00BCCF00 /* Estrutura de Repetição.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B1DA8CA12A1D5F1F00BCCF00 /* Estrutura de Repetição.pdf */; };
+		B1DA8CA42A1D618000BCCF00 /* Classe.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B1DA8CA32A1D618000BCCF00 /* Classe.pdf */; };
+		B1DA8CA62A1D624600BCCF00 /* Herança.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B1DA8CA52A1D624600BCCF00 /* Herança.pdf */; };
+		B1DA8CA82A1D62AD00BCCF00 /* Encapsulamento.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B1DA8CA72A1D62AD00BCCF00 /* Encapsulamento.pdf */; };
+		B1DA8CAA2A1D62FD00BCCF00 /* Struct.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B1DA8CA92A1D62FD00BCCF00 /* Struct.pdf */; };
+		B1DA8CAC2A1D633A00BCCF00 /* Polimorfismo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B1DA8CAB2A1D633A00BCCF00 /* Polimorfismo.pdf */; };
 		B8C77F52ACF2E321BBD0F864 /* Pods_PortifolioLeoLacerda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 578638481B6D1F5C067C6701 /* Pods_PortifolioLeoLacerda.framework */; };
 /* End PBXBuildFile section */
 
@@ -88,9 +97,18 @@
 		B177D6FD2A0C0E0100EDDD32 /* AppPageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppPageCollectionViewCell.xib; sourceTree = "<group>"; };
 		B178E4102A021B04001CA128 /* AppPageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AppPageViewController.storyboard; sourceTree = "<group>"; };
 		B178E4122A021B16001CA128 /* AppPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPageViewController.swift; sourceTree = "<group>"; };
-		B1A8D4002A034BE600494822 /* VarLetViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VarLetViewController.storyboard; sourceTree = "<group>"; };
-		B1A8D4022A034BF700494822 /* VarLetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VarLetViewController.swift; sourceTree = "<group>"; };
-		B1DD07D42A09845D0065B01A /* Concepts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concepts.swift; sourceTree = "<group>"; };
+		B1A8D4002A034BE600494822 /* ConceptPageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConceptPageViewController.storyboard; sourceTree = "<group>"; };
+		B1A8D4022A034BF700494822 /* ConceptPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConceptPageViewController.swift; sourceTree = "<group>"; };
+		B1DA8C962A1D538E00BCCF00 /* Variaveis Constantes.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Variaveis Constantes.pdf"; sourceTree = "<group>"; };
+		B1DA8C9B2A1D5BF200BCCF00 /* Funções.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Funções.pdf"; sourceTree = "<group>"; };
+		B1DA8C9D2A1D5CB900BCCF00 /* Coleções.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Coleções.pdf"; sourceTree = "<group>"; };
+		B1DA8C9F2A1D5E2D00BCCF00 /* Estrutura Condicional.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Estrutura Condicional.pdf"; sourceTree = "<group>"; };
+		B1DA8CA12A1D5F1F00BCCF00 /* Estrutura de Repetição.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Estrutura de Repetição.pdf"; sourceTree = "<group>"; };
+		B1DA8CA32A1D618000BCCF00 /* Classe.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Classe.pdf; sourceTree = "<group>"; };
+		B1DA8CA52A1D624600BCCF00 /* Herança.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Herança.pdf"; sourceTree = "<group>"; };
+		B1DA8CA72A1D62AD00BCCF00 /* Encapsulamento.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Encapsulamento.pdf; sourceTree = "<group>"; };
+		B1DA8CA92A1D62FD00BCCF00 /* Struct.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Struct.pdf; sourceTree = "<group>"; };
+		B1DA8CAB2A1D633A00BCCF00 /* Polimorfismo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Polimorfismo.pdf; sourceTree = "<group>"; };
 		D19FBF0BAF4B52B020CCF7D8 /* Pods-PortifolioLeoLacerda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PortifolioLeoLacerda.debug.xcconfig"; path = "Target Support Files/Pods-PortifolioLeoLacerda/Pods-PortifolioLeoLacerda.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -158,6 +176,7 @@
 		B10E147529FAD9F600023F2C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B1DA8C982A1D54AF00BCCF00 /* Concept Files */,
 				B10E146929FAD4B600023F2C /* Assets.xcassets */,
 				B10E146B29FAD4B600023F2C /* LaunchScreen.storyboard */,
 				B10E146029FAD4B300023F2C /* AppDelegate.swift */,
@@ -344,9 +363,8 @@
 		B177D7022A0C1B2200EDDD32 /* Concepts */ = {
 			isa = PBXGroup;
 			children = (
-				B1DD07CE2A09838F0065B01A /* Model */,
-				B1A8D3FE2A034A5E00494822 /* View */,
-				B1DD07CF2A0983960065B01A /* ViewModel */,
+				B10E147A29FADB8E00023F2C /* Screen1ViewController.storyboard */,
+				B10E147C29FADBBA00023F2C /* Screen1ViewController.swift */,
 			);
 			path = Concepts;
 			sourceTree = "<group>";
@@ -354,7 +372,8 @@
 		B177D7042A0C1B5C00EDDD32 /* Concept Pages */ = {
 			isa = PBXGroup;
 			children = (
-				B1A8D3FF2A034A7300494822 /* Variável - Constante */,
+				B1A8D4002A034BE600494822 /* ConceptPageViewController.storyboard */,
+				B1A8D4022A034BF700494822 /* ConceptPageViewController.swift */,
 			);
 			path = "Concept Pages";
 			sourceTree = "<group>";
@@ -377,38 +396,21 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		B1A8D3FE2A034A5E00494822 /* View */ = {
+		B1DA8C982A1D54AF00BCCF00 /* Concept Files */ = {
 			isa = PBXGroup;
 			children = (
-				B10E147A29FADB8E00023F2C /* Screen1ViewController.storyboard */,
-				B10E147C29FADBBA00023F2C /* Screen1ViewController.swift */,
+				B1DA8CAB2A1D633A00BCCF00 /* Polimorfismo.pdf */,
+				B1DA8CA92A1D62FD00BCCF00 /* Struct.pdf */,
+				B1DA8CA72A1D62AD00BCCF00 /* Encapsulamento.pdf */,
+				B1DA8CA52A1D624600BCCF00 /* Herança.pdf */,
+				B1DA8CA32A1D618000BCCF00 /* Classe.pdf */,
+				B1DA8C9F2A1D5E2D00BCCF00 /* Estrutura Condicional.pdf */,
+				B1DA8CA12A1D5F1F00BCCF00 /* Estrutura de Repetição.pdf */,
+				B1DA8C9D2A1D5CB900BCCF00 /* Coleções.pdf */,
+				B1DA8C9B2A1D5BF200BCCF00 /* Funções.pdf */,
+				B1DA8C962A1D538E00BCCF00 /* Variaveis Constantes.pdf */,
 			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		B1A8D3FF2A034A7300494822 /* Variável - Constante */ = {
-			isa = PBXGroup;
-			children = (
-				B1A8D4002A034BE600494822 /* VarLetViewController.storyboard */,
-				B1A8D4022A034BF700494822 /* VarLetViewController.swift */,
-			);
-			name = "Variável - Constante";
-			path = "Variável - Constante";
-			sourceTree = "<group>";
-		};
-		B1DD07CE2A09838F0065B01A /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				B1DD07D42A09845D0065B01A /* Concepts.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		B1DD07CF2A0983960065B01A /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
+			path = "Concept Files";
 			sourceTree = "<group>";
 		};
 		D300DE98140AC6FC6858E1FE /* Pods */ = {
@@ -417,7 +419,6 @@
 				D19FBF0BAF4B52B020CCF7D8 /* Pods-PortifolioLeoLacerda.debug.xcconfig */,
 				8C09A755E5FA8D85B9BB2820 /* Pods-PortifolioLeoLacerda.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -482,20 +483,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				B178E4112A021B04001CA128 /* AppPageViewController.storyboard in Resources */,
-				B1A8D4012A034BE600494822 /* VarLetViewController.storyboard in Resources */,
+				B1DA8CA62A1D624600BCCF00 /* Herança.pdf in Resources */,
+				B1A8D4012A034BE600494822 /* ConceptPageViewController.storyboard in Resources */,
 				B154BE2029FC7549001F5D93 /* HomeViewController.storyboard in Resources */,
 				B177D6FF2A0C0E0100EDDD32 /* AppPageCollectionViewCell.xib in Resources */,
+				B1DA8C972A1D538E00BCCF00 /* Variaveis Constantes.pdf in Resources */,
 				B154BE2A29FC77FE001F5D93 /* ApplicationsTableViewCell.xib in Resources */,
+				B1DA8CAA2A1D62FD00BCCF00 /* Struct.pdf in Resources */,
 				B12A88A129FC55B000ACC971 /* Screen4TableViewCell.xib in Resources */,
+				B1DA8CA02A1D5E2D00BCCF00 /* Estrutura Condicional.pdf in Resources */,
+				B1DA8CA82A1D62AD00BCCF00 /* Encapsulamento.pdf in Resources */,
 				B10E146D29FAD4B600023F2C /* LaunchScreen.storyboard in Resources */,
+				B1DA8CAC2A1D633A00BCCF00 /* Polimorfismo.pdf in Resources */,
 				B10E146A29FAD4B600023F2C /* Assets.xcassets in Resources */,
 				B12900802A016A4100360AD1 /* SignUpViewController.storyboard in Resources */,
 				B154BE2E29FC780E001F5D93 /* ApplicationsCollectionViewCell.xib in Resources */,
+				B1DA8CA22A1D5F1F00BCCF00 /* Estrutura de Repetição.pdf in Resources */,
 				B10E148329FADD6A00023F2C /* Screen3ViewController.storyboard in Resources */,
+				B1DA8C9C2A1D5BF200BCCF00 /* Funções.pdf in Resources */,
 				B10E147B29FADB8E00023F2C /* Screen1ViewController.storyboard in Resources */,
 				B10E146829FAD4B300023F2C /* Main.storyboard in Resources */,
+				B1DA8CA42A1D618000BCCF00 /* Classe.pdf in Resources */,
 				B10E147F29FADD5100023F2C /* Screen2ViewController.storyboard in Resources */,
 				B10E148729FADD8500023F2C /* Screen4ViewController.storyboard in Resources */,
+				B1DA8C9E2A1D5CB900BCCF00 /* Coleções.pdf in Resources */,
 				B154BE1B29FC7468001F5D93 /* ForgotPasswordViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -553,7 +564,6 @@
 				B12A88A029FC55B000ACC971 /* Screen4TableViewCell.swift in Sources */,
 				B10E148529FADD7A00023F2C /* Screen3ViewController.swift in Sources */,
 				B154BE2929FC77FE001F5D93 /* ApplicationsTableViewCell.swift in Sources */,
-				B1DD07D52A09845D0065B01A /* Concepts.swift in Sources */,
 				B154BE1D29FC7488001F5D93 /* ForgotPasswordViewController.swift in Sources */,
 				B10E146529FAD4B300023F2C /* TabBarController.swift in Sources */,
 				B12900822A016A5500360AD1 /* SignUpViewController.swift in Sources */,
@@ -569,7 +579,7 @@
 				B154BE3029FC782F001F5D93 /* Category.swift in Sources */,
 				B154BE2D29FC780E001F5D93 /* ApplicationsCollectionViewCell.swift in Sources */,
 				B10E146329FAD4B300023F2C /* SceneDelegate.swift in Sources */,
-				B1A8D4032A034BF700494822 /* VarLetViewController.swift in Sources */,
+				B1A8D4032A034BF700494822 /* ConceptPageViewController.swift in Sources */,
 				B154BE2229FC7552001F5D93 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
