@@ -25,7 +25,7 @@ class ApplicationsViewModel{
                 ),
         Category(categoryName: "Music Streamings", categoryList:
                     [
-                        Application(appTitle: "TIDAL Music: HiFi, Ad-free", appSubTitle: "Music is better on TIDAL", appImage: "TIDAL", appSize: 123.1, linkID: "id913943275?l=en", appScreenshots: ["Tidal1", "Tidal2", "Tidal3", "Tidal4"]),
+                        Application(appTitle: "TIDAL Music: HiFi, Ad-free", appSubTitle: "Music is better on TIDAL", appImage: "Tidal", appSize: 123.1, linkID: "id913943275?l=en", appScreenshots: ["Tidal1", "Tidal2", "Tidal3", "Tidal4"]),
                         Application(appTitle: "Apple Music", appSubTitle: "Over 100 million songs.", appImage: "Apple Music", appSize: 100, linkID: "id1108187390?l=en", appScreenshots: ["AppleMusic1", "AppleMusic2", "AppleMusic3", "AppleMusic4"]),
                         Application(appTitle: "SoundCloud - Music & Playlists", appSubTitle: "Find your next song & beats", appImage: "SoundCloud", appSize: 153.4, linkID: "id336353151?l=en", appScreenshots: ["SoundCloud1", "SoundCloud2", "SoundCloud3", "SoundCloud4"]),
                         Application(appTitle: "Youtube Music", appSubTitle: "Music world dedicated to you", appImage: "Youtube Music", appSize: 193.3, linkID: "id1017492454?l=en", appScreenshots: ["YoutubeMusic1", "YoutubeMusic2", "YoutubeMusic3", "YoutubeMusic4"]),
@@ -45,7 +45,7 @@ class ApplicationsViewModel{
                         Application(appTitle: "Instagram", appSubTitle: "Photo & Video", appImage: "Instagram", appSize: 265.8, linkID: "id389801252?l=en", appScreenshots: ["Instagram1", "Instagram2", "Instagram3", "Instagram4"]),
                         Application(appTitle: "Facebook", appSubTitle: "Social Networking", appImage: "Facebook", appSize: 301.8, linkID: "id284882215?l=en", appScreenshots: ["Facebook1", "Facebook2", "Facebook3", "Facebook4"]),
                         Application(appTitle: "Twitter", appSubTitle: "Live news, sports, and chat", appImage: "Twitter", appSize: 221, linkID: "id333903271?l=en", appScreenshots: ["Twitter1", "Twitter2", "Twitter3", "Twitter4"]),
-                        Application(appTitle: "WhatsApp Messenger", appSubTitle: "Simple. Reliable. Private", appImage: "WhatsApp", appSize: 149.4, linkID: "id310633997?l=en", appScreenshots: ["Whatapp1", "Whatapp2", "Whatapp3", "Whatapp4"]),
+                        Application(appTitle: "WhatsApp Messenger", appSubTitle: "Simple. Reliable. Private", appImage: "Whatsapp", appSize: 149.4, linkID: "id310633997?l=en", appScreenshots: ["Whatapp1", "Whatapp2", "Whatapp3", "Whatapp4"]),
                         Application(appTitle: "TikTok - Videos, Music & LIVE", appSubTitle: "Watch, discover and stream!", appImage: "TikTok", appSize: 317.1, linkID: "id835599320?l=en", appScreenshots: ["Tiktok1", "Tiktok2", "Tiktok3", "Tiktok4"]),
                         Application(appTitle: "Messenger", appSubTitle: "Text, audio and video calls", appImage: "Messenger", appSize: 102.9, linkID: "id454638411?l=en", appScreenshots: ["Messenger1", "Messenger2", "Messenger3", "Messenger4"]),
                     ]
