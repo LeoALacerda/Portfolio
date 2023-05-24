@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,34 +13,34 @@
             <objects>
                 <viewController storyboardIdentifier="AppPageViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="AppPageViewController" customModule="PortifolioLeoLacerda" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A4o-Uz-6T8">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="170"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="209"/>
                                 <color key="backgroundColor" red="0.9525167071630084" green="0.9525167071630084" blue="0.9525167071630084" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sY9-Uw-kPV">
-                                <rect key="frame" x="20" y="30" width="120" height="120"/>
+                                <rect key="frame" x="20" y="69" width="120" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="120" id="m2i-P1-bf6"/>
                                     <constraint firstAttribute="height" constant="120" id="p6h-t6-c2X"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Incorporation Inc." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zax-tW-e2o">
-                                <rect key="frame" x="150" y="62" width="113.5" height="18.5"/>
+                                <rect key="frame" x="150" y="101" width="113.33333333333331" height="18.333333333333329"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
                                 <color key="textColor" red="0.18285568669999999" green="0.18285568669999999" blue="0.18285568669999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Preview:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ah4-Kw-dxj">
-                                <rect key="frame" x="20" y="180" width="85" height="29"/>
+                                <rect key="frame" x="20" y="219" width="85" height="29"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="cnw-gA-I6l">
-                                <rect key="frame" x="10" y="209" width="355" height="458"/>
+                                <rect key="frame" x="5" y="248" width="383" height="570"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="sko-pf-Bb6">
                                     <size key="itemSize" width="128" height="128"/>
@@ -51,13 +51,13 @@
                                 <cells/>
                             </collectionView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JB8-fg-SZ9">
-                                <rect key="frame" x="150" y="30" width="215" height="29"/>
+                                <rect key="frame" x="150" y="69" width="233" height="29"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SS5-vj-abc">
-                                <rect key="frame" x="224" y="117.5" width="141" height="32.5"/>
+                                <rect key="frame" x="242" y="156.66666666666666" width="141" height="32.333333333333343"/>
                                 <color key="backgroundColor" systemColor="systemMintColor"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -69,7 +69,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EsC-ZM-fM4">
-                                <rect key="frame" x="333" y="95.5" width="32" height="17"/>
+                                <rect key="frame" x="351" y="134.66666666666666" width="32" height="17"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="13"/>
                                 <color key="textColor" red="0.18285568669999999" green="0.18285568669999999" blue="0.18285568669999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -85,14 +85,14 @@
                             <constraint firstItem="zax-tW-e2o" firstAttribute="top" secondItem="JB8-fg-SZ9" secondAttribute="bottom" constant="3" id="9ZR-rS-2lX"/>
                             <constraint firstItem="JB8-fg-SZ9" firstAttribute="leading" secondItem="sY9-Uw-kPV" secondAttribute="trailing" constant="10" id="B3d-wu-QZh"/>
                             <constraint firstItem="A4o-Uz-6T8" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="ENY-8X-NFE"/>
-                            <constraint firstItem="cnw-gA-I6l" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="10" id="FvT-if-oLL"/>
+                            <constraint firstItem="cnw-gA-I6l" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="5" id="FvT-if-oLL"/>
                             <constraint firstItem="A4o-Uz-6T8" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="GvM-F9-XRt"/>
                             <constraint firstItem="sY9-Uw-kPV" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="Jc7-XI-b3R"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="cnw-gA-I6l" secondAttribute="bottom" id="N8A-MX-7Lf"/>
                             <constraint firstItem="sY9-Uw-kPV" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="10" id="QJC-3V-dOU"/>
                             <constraint firstItem="SS5-vj-abc" firstAttribute="top" secondItem="EsC-ZM-fM4" secondAttribute="bottom" constant="5" id="YYC-2A-s4Q"/>
                             <constraint firstItem="ah4-Kw-dxj" firstAttribute="top" secondItem="A4o-Uz-6T8" secondAttribute="bottom" constant="10" id="ZNI-R4-AuH"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="cnw-gA-I6l" secondAttribute="trailing" constant="10" id="buI-RY-gaJ"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="cnw-gA-I6l" secondAttribute="trailing" constant="5" id="buI-RY-gaJ"/>
                             <constraint firstItem="A4o-Uz-6T8" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="dOC-X5-lJk"/>
                             <constraint firstItem="ah4-Kw-dxj" firstAttribute="top" secondItem="sY9-Uw-kPV" secondAttribute="bottom" constant="30" id="f78-FD-tcX"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="SS5-vj-abc" secondAttribute="trailing" constant="10" id="gFW-MJ-kz0"/>

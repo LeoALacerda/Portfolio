@@ -63,6 +63,7 @@ extension AppPageViewController: UICollectionViewDelegate,UICollectionViewDelega
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        CGSize(width: 255, height: 537)
+        CGSize(width: 247, height: 554)
+//        CGSize(width: 225, height: 495)
     }
 }
